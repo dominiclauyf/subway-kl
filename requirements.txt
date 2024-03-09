@@ -1,0 +1,11 @@
+transformers==4.38.2
+django==5.0.3
+requests==2.31.0
+beautifulsoup4==4.12.3
+tzdata
+django-bulk-update-or-create
+geopy
+python-decouple
+djangorestframework
+django-filter
+factory_boy

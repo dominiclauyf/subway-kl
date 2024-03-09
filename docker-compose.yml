@@ -1,0 +1,7 @@
+version: '3'
+services:
+  api:
+    build: .
+    command: ["tail", "-f", "/dev/null"]
+    volumes:
+      - .:/subway-kl
