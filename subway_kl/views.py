@@ -1,7 +1,8 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 
 from subway_kl.handlers import SubwayOutletHandler
+from subway_kl.models import SubwayContext, SubwayOutlet
 from subway_kl.typings import OutletData
 
 from .scraping import scrape_subway_kl_data
@@ -12,6 +13,28 @@ def index(request):
 
     # Render the template with the provided data
     return render(request, "index.html", context=data)
+
+
+def question_handler(request):
+    from .question_answer_ml import handle_query
+
+    question = request.GET.get("question", None)
+
+    # Validation
+    if question is None or question == "":
+        return JsonResponse({"answer": "No question"})
+    if len(question) < 10:
+        return JsonResponse({"answer": "Do type full question so AI can understand."})
+
+    # Process question
+    result = handle_query(
+        question,
+        SubwayContext.objects.first().context.join(
+            [obj.to_context() for obj in SubwayOutlet.objects.all()]
+        ),
+    )
+
+    return JsonResponse({"answer": result})
 
 
 def scrape_and_update_subway_kl_data(request):

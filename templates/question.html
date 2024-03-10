@@ -1,0 +1,27 @@
+{% load static %}
+<div class="row mt-4">
+    <div class="col-12">
+        <h1 class="mb-4">Ask a Question</h1>
+
+        <!-- Question Form -->
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Your Question" aria-label="Your Question"
+                aria-describedby="button-addon2" id="questionInput" required>
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="button-addon2">Submit</button>
+            </div>
+        </div>
+
+        <!-- Display Answer -->
+        <div id="answerContainer" class="mt-4">
+            <!-- Loading Spinner -->
+            <div class="spinner-border text-primary" role="status" id="loadingSpinner" style="display: none;">
+                <span class="sr-only"></span>
+            </div>
+
+            <!-- Answer Content -->
+            <div id="answerContent"></div>
+        </div>
+    </div>
+</div>
+<script src="{% static 'subway/question_handler.js' %}"></script>

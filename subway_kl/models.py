@@ -20,3 +20,20 @@ class SubwayOutlet(models.Model):
 
     def __str__(self):
         return self.name
+
+    def to_context(self):
+        return f"{self.name} located at {self.address}, Operation Time:{self.operating_time}."
+
+
+class SubwayContext(models.Model):
+    context = models.TextField()
+
+    def save(self, *args, **kwargs):
+        # Check if there's already an existing instance
+        existing_instance = SubwayContext.objects.first()
+
+        if existing_instance:
+            # If an instance already exists, update its fields
+            existing_instance.context = self.context
+
+        super(SubwayContext, self).save(*args, **kwargs)

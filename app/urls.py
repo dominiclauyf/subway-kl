@@ -20,6 +20,7 @@ from django.urls import include, path
 
 from subway_kl.views import (
     index,
+    question_handler,
     retrieve_subway_kl_geo_coord,
     scrape_and_update_subway_kl_data,
 )
@@ -29,5 +30,6 @@ urlpatterns = [
     path("", index, name="index"),
     path("scrape", scrape_and_update_subway_kl_data, name="scrap_subway_kl_data"),
     path("retrieve", retrieve_subway_kl_geo_coord, name="retrieve_subway_kl_data"),
+    path("ask", question_handler, name="ask"),
     path("api/", include("api.urls", namespace="all")),
 ]
