@@ -1,4 +1,5 @@
 from django.http import HttpResponse
+from django.shortcuts import render
 
 from subway_kl.handlers import SubwayOutletHandler
 from subway_kl.typings import OutletData
@@ -7,7 +8,10 @@ from .scraping import scrape_subway_kl_data
 
 
 def index(request):
-    return HttpResponse("hello")
+    data = {"key1": "value1", "key2": "value2"}
+
+    # Render the template with the provided data
+    return render(request, "index.html", context=data)
 
 
 def scrape_and_update_subway_kl_data(request):

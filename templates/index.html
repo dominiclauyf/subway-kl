@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="row">
+    <div class="col-xl-4 mt-5" style="height: 50vmin;">
+        <h2>Search Box</h2>
+
+        <!-- Search Box -->
+        <div class="mb-3">
+            <input type="text" class="form-control" id="searchInput" placeholder="Type to search...">
+        </div>
+
+        <!-- Result List -->
+        <div class="result-list-container" style="max-height: 40vmin; overflow-y: auto;">
+            <!-- Result List -->
+            <ul class="list-group" id="resultList">
+                <!-- Result items will be dynamically added here -->
+            </ul>
+        </div>
+
+    </div>
+    <div class="col-xl-8 mt-5" style="height: 50vmin;">
+        <div class="row">
+            <div class="col-8">
+                <h1>Map</h1>
+            </div>
+            <div class="col-4 text-end">
+                <button class="btn btn-primary ms-auto" onclick="toogleCircle()">Hover radius</button>
+            </div>
+        </div>
+
+        <div id="map" style="height: 45vmin;"></div>
+
+
+    </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Information</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Please select an outlets before using hover radius feature.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="{% static 'leaflet/leaflet.css' %}" />
+<script src="{% static 'leaflet/leaflet.js' %}"></script>
+
+<script src="{% static 'subway/search_input_handler.js' %}"></script>
+<script src="{% static 'subway/map_handler.js' %}"></script>
+{% endblock content %}
