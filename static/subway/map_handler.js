@@ -15,6 +15,7 @@ var circleMarkers = null;
 function cleanMap() {
   if (currentMarker !== null) {
     map.removeLayer(currentMarker);
+    currentMarker = null;
   }
   if (circle !== null) {
     toogleCircle();

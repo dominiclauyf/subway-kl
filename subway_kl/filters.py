@@ -1,3 +1,4 @@
+from django.db.models import Q
 from django_filters import rest_framework as filters
 
 from subway_kl.models import SubwayOutlet
@@ -10,8 +11,11 @@ class SubwayOutletListFileter(filters.FilterSet):
         model = SubwayOutlet
         fields = [
             "search",
-            "name",
         ]
 
     def filter_search(self, queryset, name, value):
-        return queryset
+        return queryset.filter(
+            Q(name__icontains=value)
+            | Q(address__icontains=value)
+            | Q(operating_time__icontains=value)
+        )
