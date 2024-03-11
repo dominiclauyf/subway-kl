@@ -1,4 +1,7 @@
-# Django Server
+# Subway KL
+![UI Preview](/docs/sample.png)
+
+
 ## Development Docker Quick Start
 
 You need to have Docker and Docker Compose. Git clone this project and enter its root directory, then run the following:
