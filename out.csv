@@ -1,0 +1,71 @@
+id,name,address,operating_time,long,lat,retrieve_lat,retrieve_long
+1,Subway Menara UOA Bangsar,"Jalan Bangsar Utama 1, Unit 1-2-G, Menara UOA Bangsar, Kuala Lumpur, 59000","Monday - Sunday, 8:00 AM - 8:00 PM",101.6787,3.1281,3.127,101.6769
+2,Subway Jln Pinang,"G9, Wisma UOA II, 19, Jalan Pinang, Kuala Lumpur, 50450","Monday - Saturday, 8:00 AM – 9:00PM",101.712,3.1527,3.1523,101.7122
+3,Subway UOA Damansara,"Unit 50-G-5, Ground Floor, Wisma UOA Damansara, No. 50, Jalan Dungun, Kuala Lumpur, 50490","Monday - Saturday, 8:00 AM – 8:30PM",101.666,3.1517,3.1517,101.666
+4,Subway Mont Kiara,"E-01-16 ,Block E, Plaza Mont Kiara, 2 Jalan Kiara, Mont Kiara, Kuala Lumpur, 50480","Monday - Sunday, 10:00 AM - 10:00 PM",101.652,3.1657,3.1657,101.652
+5,Subway Avenue K,"Lot UC-8 & 9, Upper Concourse Level, Avenue K, No. 156, Jalan Ampang, Kuala Lumpur, 50450","Monday - Sunday, 8:00 AM - 10:00 PM",101.7135,3.1595,3.1582,101.7121
+6,Subway Berjaya Times Square,"LG-08A, Berjaya Times Square, No. 1, Jalan Imbi, Kuala Lumpur, 55100","Monday - Sunday, 10:00 AM - 10:00 PM",101.7106,3.1422,3.1425,101.7104
+7,Subway Capsquare,"Ground Floor, Unit 01-02, Cap Square Tower, 10 Jalan Munshi Abdullah, Kuala Lumpur, 50100","Monday - Saturday, 8:00 AM – 9:00PM",101.6988,3.1544,3.1541,101.7001
+8,Subway Aeon AU2,"Aeon AU2 Shopping Center, 6, Jln 37/36 Taman Setiawangsa, Lot G49, Taman Keramat, Kuala Lumpur, 54200","Monday - Sunday, 10:00 AM - 10:00 PM",101.7506,3.1772,3.1775,101.7399
+9,Subway University Malaya,"Faculty of Dentistry, Level 1, Block B, University of Malaya, Kuala Lumpur, 50603","Monday - Friday, 6:30 AM – 10:00PM",101.6537,3.1217,3.1219,101.657
+10,Subway Wangsa Walk,"Wangsa Ave, Bandar Wangsa Maju, #9 Jalan Perdana 1, G-52, Wangsa Walk Mall, Kuala Lumpur, 53300","Monday - Sunday, 9:30 AM - 9:30 PM",101.7422,3.1986,3.1406,101.6891
+11,Subway TTDI,"Lvl1, Petronas Svs Station TTDI,Lot29395 & 29396, Pinggir Zaaba, Taman Tun Dr Ismail, Kuala Lumpur, 60000","Monday - Sunday, 8:30 AM - 9:00 PM",101.6252,3.142,3.1462,101.6254
+12,Subway Menara Aras Jaya,"LG Floor, Menara Bumiputra Commerce, No 11, Jalan Raja Laut, 50350 Kuala Lumpur","Monday - Friday, 8:00 AM – 9:00PM",101.6957,3.1556,3.1551,101.6953
+13,Subway Tesco Kepong,"Tesco Kepong Village Mall, Lot No. 14, 1st Floor, No. 3 Jalan 7A/62A Bandar Manjalara, Kuala Lumpur, 52200","Monday - Sunday, 10:15 AM - 9:30 PM",101.6337,3.1944,3.1951,101.6329
+14,Subway Jalan Ipoh,"No. 447, Jalan Ipoh, Batu 3, Taman Million, 51200 Kuala Lumpur","Monday - Sunday, 8:00 AM - 10:00 PM",101.6851,3.1782,3.1821,101.6822
+15,Subway Southgate,"Pusat Komersial Southgate, No. 2, Jalan Dua, Unit E-1-6, Off Jalan Chan Sow Lin, Lvl 1, Kuala Lumpur, 55200","Monday - Sunday, 8:00 AM - 9:00 PM",101.7107,3.1245,3.122,101.7134
+16,Subway Brem Mall,"G-06, Brem Mall, Jalan Kepong, Kepong, Kuala Lumpur, 52000","Monday - Sunday, 8:00 AM - 10:00 PM",101.6676,3.2045,3.2045,101.6674
+17,Subway Festival City ,"Setapak Central Mall, Lot S-23, No. 67 Jalan Taman Ibu Kota, Taman Danau Kota, Setapak, Kuala Lumpur, 53200","Monday - Sunday, 10:00 AM - 10:00 PM",101.7205,3.2046,3.2054,101.72
+18,Subway Aeon Big Wangsamaju,"Aeon Big Wangsa Maju, F1-09, First Floor, Jalan 8/27A, Section 5, Wangsa Maju, 53300 Kuala Lumpur.","Monday - Sunday, 10:00 AM - 10:00 PM",101.7432,3.1965,3.197,101.7454
+19,Subway Endah Parade,"Endah Parade Shopping Complex, Lot G-013A, Ground Floor, Jalan 1/149E, Kuala Lumpur, 57000","Monday - Sunday, 8:00 AM - 10:00 PM",101.6952,3.0633,3.0633,101.6952
+20,Subway TBS,"Unit L4-29, 4th Floor, Terminal Bersepadu Selatan, Bandar Tasik Selatan, Kuala Lumpur, 57100","Monday - Sunday, 10:00 AM – 8:00PM",101.7109,3.078,3.0781,101.7111
+21,Subway KWC (Kenanga),"KWC Fashion Mall, No.2, Jalan Gelugor, Lot G-08, Kuala Lumpur, 55200","Monday - Sunday, 10:00 AM - 8:00 PM",101.7084,3.1361,3.1367,101.7078
+22,Subway Selayang 18,"Lot 3.06, 3rd Floor vendor letter SH-15-G,Grd Floor,Selayang, Kuala Lumpur, 68000 , Batu Caves, 68100","Monday - Sunday, 8:00 AM - 9:00 PM",101.6544,3.2552,3.2379,101.684
+23,Subway Sime Darby Parkcity,"Sime Darby Parkcity, CP Retail 2, No. 2 Jalan Intisari, Perdana Desa Parkcity, Kuala Lumpur, 52200","Monday - Sunday, 8:00 AM - 9:30 PM",101.6385,3.1893,3.1891,101.6378
+24,Subway TM,"Lower Ground 1 (LG1), Menara TM, Jalan Pantai Baharu, 50672 Kuala Lumpur","Monday, 10:00 AM – 8:00PM
+
+Tuesday - Thursday, 8:00 AM – 8:00PM
+
+Friday, 8:20 AM – 8:00PM
+
+Saturday, 9:00 AM – 9:00PM
+
+Sunday, Closed",101.6659,3.1161,3.1161,101.6659
+25,Subway Sri Gombak,"No. G100, Jalan Prima SG3/2, Taman Prima, Sri Gombak, Kuala Lumpur, 68100","Monday - Sunday, 8:00 AM - 10:30 PM",101.7003,3.2377,3.2377,101.7003
+26,"Subway Trillium, Lake Fields","No.66, Jalan Tasik Utama 7, Medan Niaga Tasik Damai, (Trillium) Lake Field, Sg Besi, Kuala Lumpur, 57000","Monday - Sunday, 8:30 AM - 10:00 PM",101.7104,3.0599,3.0574,101.7179
+27,Subway Ikon Connaught,"Ikon Connaught, G-02A & Alfresco GA-02A, Ground Floor, Jalan Cerdas, Taman Connaught, Kuala Lumpur, 56100","Monday - Sunday, 10:00 AM - 8:00 PM",101.7314,3.0815,3.0815,101.7314
+28,Subway Ativo Plaza,"Ativo Plaza, #1 Jalan PJU 9/1, Damansara Ave, B-G-2, Block B, Bandar Sri Damansara, Kuala Lumpur, 52200","Monday - Saturday, 8:30 AM – 10:00PM",101.6163,3.1963,3.1967,101.6163
+29,Subway Quill City (LG),"Quill City Mall, LG-02, No. 1018, Jalan Sultan Ismail, Kuala Lumpur , 50250","Monday - Sunday, 10:00 AM - 10:00 PM",101.7002,3.1595,3.1599,101.7001
+30,Subway OUG,"A1-07 Jalan 1/52, Taman OUG Parklane Off Jalan Klang Lama 58200 Kuala Lumpur ","Monday - Sunday, 9:00 AM - 10:00 PM",101.6616,3.0748,3.0867,101.6733
+31,Subway Sri Petaling,"No. 53, Jalan Radin Bagus, 57000 Sri Petaling, Kuala Lumpur","Monday - Sunday, 8:00 AM - 10:00 PM",101.695,3.0704,3.0704,101.695
+32,Subway Aeon Alpha Angle,"AEON Alpha Angle Shopping Ctr, Lot F37A, Jalan R1, Seksyen 1, Bandar Baru Wangsa Maju, Kuala Lumpur, 53300","Monday - Sunday, 10:00 AM - 10:00 PM",101.7318,3.2018,3.2021,101.7342
+33,Subway My Town,"Lot B1-07 & B1-08, Level Basement 1, MyTOWN Shopping Centre, Jalan Cochrane, Seksyen 90, Kuala Lumpur, 55100","Monday - Sunday, 10:00 AM - 10:00 PM",101.7228,3.1349,3.1499,101.6945
+34,Subway Great Eastern Mall,"Great Eastern Mall, Lot 4C Lower Ground Floor, No 303 Jalan Ampang, Kuala Lumpur, 50450","Monday - Friday, 8:30 AM – 8:30PM",101.7369,3.1601,3.1601,101.7369
+35,Subway NU Sentral,"L4.13, Level Four, NU Sentral, No. 201 Jalan Tun Sambanthan, Kuala Lumpur, 50470","Monday - Sunday, 9:00 AM - 9:00 PM",101.687,3.1331,3.1333,101.6872
+36,Subway Sunway Putra,"Lot 4-60 & 4-79A, Fourth Floor, Sunway Putra Mall, No. 100, Jalan Putra, 50350 Kuala Lumpur","Monday - Sunday, 10:00 AM - 10:00 PM",101.6924,3.1664,3.1666,101.6924
+37,Subway Melawati Mall,"L3-22, Third Floor, Melawati Mall, UP2-01, Melawati Mall, 355, Jalan Bandar Melawati, Pusat Bandar Melawati, 53100 Kuala Lumpur","Monday - Sunday, 10:00 AM - 10:00 PM",101.7487,3.2114,3.2126,101.7471
+38,Subway Taman Melati,"No. 71-G Jalan Melati Utama 4, Taman Melati Utama, 53100 Setapak, Kuala Lumpur","Monday - Sunday, 7:30 AM - 10:00 PM",101.7312,3.2228,3.2228,101.7312
+39,Subway Bukit Jalil,"Level 1 Axiata Arena, KL Sport City, Bukit Jalil, 57000, Kuala Lumpur","Monday - Sunday, 9:00 AM - 10:00 PM",101.6934,3.0538,3.0535,101.6925
+40,Subway Sentul Sky Awani,"Ground Floor , Unit No. G-11, Residensi Awani, Sky Awani, No. 27 Jalan Sentul Perdana 51100, Kuala Lumpur","Monday - Sunday, 8:00 AM - 10:00 PM",101.6914,3.2092,3.2092,101.6914
+41,Subway Pearl Point,"Lot No. 1.0.69 (Ground Floor), Pearl Point Shopping Mall, Batu 5, Jalan Klang Lama, 58000 Kuala Lumpur",Monday - Sunday (9:00AM - 10:00PM),101.6694,3.0832,3.0832,101.6694
+42,Subway Gurney Mall (UTMKL),"Lot 1-03, Level 1, Residensi UTMKL, No 8 Jalan Maktab, 54000 Kuala Lumpur","Tuesday – Sunday, 10:00 AM – 9:30PM",101.7218,3.1716,3.1716,101.7217
+43,Subway KLTS,"45-G, Plaza KLTS, Block C, Jalan Gombak, 53000 Kuala Lumpur ","Monday - Sunday, 9:00 AM - 9:30 PM",101.7035,3.2041,3.2037,101.7034
+44,Subway KL East Mall,"LG 37  , Lower Ground Floor, KL East Mall, 823 Jalan Lingkaran Tengah 2, KL Timur, 53100 Kuala Lumpur","Sunday – Thursday, 10:00 AM – 8:00PM",101.7305,3.2248,3.2248,101.7305
+45,Subway Bandar Sri Permaisuri,"Lot R-G-07, Ground Floor Q Avenue, Kompleks Permaisuri Q, No.6,Jalan Sri Permaisuri, Bandar Sri Permaisuri, Cheras 56000 Kuala Lumpur","Monday - Sunday, 10:00 AM - 9:00 PM",101.7117,3.1012,3.102,101.7119
+46,Subway KLCC,"Lot F208, Second Floor, Suria KLCC, Jalan Ampang, Golden, 50088 Kuala Lumpur","Monday - Sunday, 10:00 AM - 10:00 PM",101.7124,3.1592,3.1582,101.7121
+47,Subway Kepong,"91, Jalan Metro Barat Perdana 1, Taman Usahawan Kepong, 52100 Kuala Lumpur ","Monday - Sunday, 8:00 AM - 8:30 PM",101.6395,3.2147,3.2147,101.6401
+48,Subway Kidzania KL,"Kidzania Kuala Lumpur, Lot 11, Lower Ground Curve NX, No.18 Jalan PJU 7/5, 47810 Mutiara Damansara, Petaling Jaya Selangor",Mon - Sun : 10am-6pmTues : Close,101.6138,3.158,3.1581,101.6138
+49,Subway BHP Jalan Kuching,"BHPetrol Jalan Kuching, Lot PT 4283 & Lot 6086 Jalan Kuching, 52100 Kuala Lumpur.","Monday - Sunday, 7:30 AM - 10:00 PM",101.6702,3.1884,3.1884,101.6702
+50,Subway Pavilion Bukit Jalil ,"Lot 1.40.00, Persiaran Jalil Utama, Bukit Jalil, Kuala Lumpur ","Monday - Sunday, 9:30 AM - 10:00 PM",101.671,3.0503,3.0488,101.6735
+51,Subway Lotus Cheras,"Lot G27-G29, No.2, Jalan Midah 2, Taman Midah, 56000 Cheras, Kuala Lumpur","Monday - Sunday, 9:30 AM - 9:00 PM",101.7348,3.0995,3.102,101.7339
+52,Subway SPARK,"1-01 Plaza Salak Park, No 2, Jalan 1/125E, Taman Desa Petaling, 57100 Kuala Lumpur",Monday - Sunday (8:00AM - 10:00PM),101.7025,3.0828,3.0828,101.7025
+53,Subway Aeon Taman Maluri,"Lot G32,AEON Mall Taman Maluri, Jalan Jejaka, Taman Maluri Cheras 55100, Kuala Lumpur","Sunday - Thursday, 10:00 AM – 10:00PM",101.7284,3.1259,3.1259,101.7284
+54,Subway KL Gateway,"G1.K5, Lower Ground 1, KL Gateway Mall, 2, Jalan Kerinchi, 59200 Kuala Lumpur",Monday - Sunday (8:00AM - 10:00PM),101.6633,3.1141,3.114,101.6634
+55,Subway Lotuss Selayang,"Lot F-18 & 18 (External) No. 1081, Jalan Ipoh Mukim Batu 51200 Kuala Lumpur",Monday - Sunday (10:00AM - 10:00PM),101.6709,3.2228,3.1752,101.6866
+56,Subway Hartamas SC,"Lot G-22A & G-22B . Hartamas Shopping Center, 60, Jalan Sri Hartamas 1, Taman Sri Hartamas, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",Monday - Sunday (10:00AM - 10:00PM),101.657,3.1635,3.1635,101.657
+57,Subway Intermark Mall,"The Intermark, Intermark Mall, 348, Jalan Tun Razak, 50400 Kuala Lumpur","Monday - Sunday, 10:00 AM - 10:00 PM",101.7199,3.1615,3.1621,101.7203
+58,Subway ROHAS KL,"No 9, Lot G-W-1, Ground Floor, West Wing, Rohas Pure Circle, Jalan P. Ramlee, 50450 Kuala Lumpur.",Monday - Sunday (8:00AM - 10:00PM),100.1798,6.4065,3.1552,101.709
+59,Subway Setapak Central Mall,"Kl Festival City, Lot S-23, No 67 Jalan Taman Ibu Kota, Taman Danau Kota, Setapak, Kuala Lumpur, 53200",Monday - Sunday (10:00AM - 10:00PM),101.72,3.2053,3.2044,101.7206
+60,Subway Mid Valley KL,"1st Floor, Zone 3, Kiosk FK-05, Mid Valley Megamall,  Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur",Monday - Sunday (8:00AM - 10:00PM),101.6775,3.1188,3.1177,101.6775
+61,Subway Lotus Ampang,"LOTUS’S AMPANG - OL1, Jalan Pandan Prima Dataran, Pandan Indah, 55100 Kuala Lumpur",Monday - Sunday (10:00AM - 10:00PM),101.7416,3.1438,3.1439,101.7418
+62,Subway Kiara Bay,"""Lot G-22, The Beat Kiara Bay Kepong Metropolitan Park,Jalan Lingkaran Tengah 52100 Kuala Lumpur.""",Monday - Sunday (10:00AM - 10:00PM),101.6503,3.227,3.2247,101.6456
