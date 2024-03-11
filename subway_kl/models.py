@@ -22,7 +22,7 @@ class SubwayOutlet(models.Model):
         return self.name
 
     def to_context(self):
-        return f"{self.name} located at {self.address}, Operation Time:{self.operating_time}."
+        return f"{self.name} located at {self.address}. {self.name} operation on {self.operating_time}."
 
 
 class SubwayContext(models.Model):

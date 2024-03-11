@@ -26,15 +26,16 @@ def question_handler(request):
     if len(question) < 10:
         return JsonResponse({"answer": "Do type full question so AI can understand."})
 
-    # Process question
-    result = handle_query(
-        question,
-        SubwayContext.objects.first().context.join(
-            [obj.to_context() for obj in SubwayOutlet.objects.all()]
-        ),
-    )
+    datas = SubwayContext.objects.first().context.split(".")
+    datas.extend([obj.to_context() for obj in SubwayOutlet.objects.all()])
 
-    return JsonResponse({"answer": result})
+    # Process question
+    score, answer = handle_query(question, datas)
+
+    if score < 0.7:
+        return JsonResponse({"answer": "I cannot understand the question."})
+
+    return JsonResponse({"answer": answer})
 
 
 def scrape_and_update_subway_kl_data(request):
