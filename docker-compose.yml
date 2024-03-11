@@ -2,6 +2,8 @@ version: '3'
 services:
   api:
     build: .
-    command: ["tail", "-f", "/dev/null"]
+    command: ["./manage.py", "runserver", "[::]:8000"]
     volumes:
       - .:/subway-kl
+    ports:
+      - "8000:8000"
