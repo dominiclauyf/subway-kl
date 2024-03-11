@@ -3,7 +3,7 @@
 
 You need to have Docker and Docker Compose. Git clone this project and enter its root directory, then run the following:
 ```bash
-cp dev-example.env .env
+cp dev-env .env
 docker-compose up
 
 # Open a new terminal
