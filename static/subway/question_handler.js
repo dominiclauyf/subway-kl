@@ -37,12 +37,17 @@ function handleQuestionAPIRequest() {
     .get("/ask", { params: { question: question } })
     .then((response) => {
       makingRequest = false;
-      const answer = response.data.answer;
       document.getElementById("loadingSpinner").style.display = "none";
+
+      const answer = response.data.answer;
       // Display the answer
       document.getElementById("answerContent").innerHTML = `<p>${answer}</p>`;
     })
     .catch((error) => {
+      makingRequest = false;
+      document.getElementById("loadingSpinner").style.display = "none";
+      // Display the answer
+      document.getElementById("answerContent").innerHTML = `<p>Some error occur when making request</p>`;
       console.error("Error fetching answer:", error);
     });
 }
